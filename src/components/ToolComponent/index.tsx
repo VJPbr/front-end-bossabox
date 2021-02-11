@@ -69,7 +69,7 @@ const ToolItem: React.FC<ToolsItemProps> = ({ tool }) => {
         <GoTrashcan/>Delete tool
       </button>
       
-      <a href={tool.link}>{tool.title}</a>
+      <a target='_blank' href={tool.link}>{tool.title}</a>
       <p>{tool.description}</p>
       <p>Tags: {tool.tags}</p>
     </div>
