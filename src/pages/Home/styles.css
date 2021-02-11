@@ -1,0 +1,183 @@
+:root {
+  background-color: #B2A9DF;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool-web {
+  align-self: flex-start;
+  font: 200 1.0rem Source Sans Pro;
+}
+
+.container {
+  max-width: 680px;
+}
+
+.container .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .search .tool-search {
+  display: flex;
+  
+  color: rgb(68, 68, 68);
+  resize: none;
+  font: bold 1.0rem Source Sans Pro;
+  width: 275px;
+  height: 30px;
+
+  background: #F5F4F6 0% 0% no-repeat padding-box;
+  border: 1px solid #EBEAED;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.container .search .button-search{
+  background-color: transparent;
+  border-color: transparent;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+}
+
+.container .search .go-search {
+  position: relative;
+  left: -35px;
+}
+
+.container .search .button-create{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -10px;
+  margin-left: 120px;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+}
+
+.container .tool-item:first-of-type {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.container .tool-item a {
+  position: relative;
+  top: -12px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: rgb(0, 122, 252);
+}
+
+.container .tool-item p {
+  font-weight: bold;
+  margin-left: 15px;
+  color: rgb(0, 0, 0);
+}
+
+.container .tool-item button {
+  margin-left: 550px;
+  position: relative;
+  top: 15px;
+  align-items: center;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+}
+
+.modal-create {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.modal-create p {
+  font-weight: bold;
+}
+
+.modal-create textarea {
+  resize: none;
+  height: 25px;
+  font: 200 1.0rem Source Sans Pro;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.modal-create textarea:last-of-type {
+  margin-bottom: 15px;
+}
+
+.modal-create .modalCreate-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.modal-create .modalCreate-buttons button {
+  height: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.modal-create .modalCreate-buttons .modal-createConfirm {
+  margin-left: 15px;
+}
+
+.modal-create .tool-description {
+  height: 75px;
+}
+
+.modal-delete {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.modal-delete .modalDelete-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.modal-delete .modalDelete-buttons button {
+  height: 25px;
+  font-weight: bold;
+  background-color: transparent;
+  border-color: black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.modal-delete .modalDelete-buttons .modal-deleteCancel {
+  width: 60px;
+}
+
+.modal-delete .modalDelete-buttons .modal-deleteTool {
+  width: 85px;
+  margin-left: 15px;
+}
