@@ -30,5 +30,5 @@ $ yarn install
 $ yarn start
 ```
 
-Para iniciar na URL (http://localhost:3333)
+Para iniciar na URL (http://localhost:3333) 
 
