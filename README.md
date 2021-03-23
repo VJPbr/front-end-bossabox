@@ -15,7 +15,7 @@ Para realização do projeto foi utilizado o react, junto com as ferramentas axi
 ### Clone do projeto:
 
 ```bash
-$ git clone https://github.com/
+$ git clone https://github.com/VJPbr/front-end-bossabox
 ```
 
 ### Instalar as dependências:
