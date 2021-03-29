@@ -10,7 +10,7 @@ Para realização do projeto foi utilizado o react, junto com as ferramentas axi
 
 ## Execução do projeto
 
-**Obs: Para utilização da aplicação é necessário ter o servidor rodando, encontra-se em: https://github.com/**
+**Obs: Para utilização da aplicação é necessário ter o servidor rodando, encontra-se em: https://github.com/VJPbr/back-end-bossabox
 
 ### Clone do projeto:
 
